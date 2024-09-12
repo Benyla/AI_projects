@@ -1,1 +1,5 @@
-## hej
+## "Fag projekt" 
+
+The project was done in collaboration with two other DTU students.
+
+This project investigates the use of Grassmann Clustering (GC) and Weighted Grassmann Clustering (WGC), to analyzing sleep data from fMRI measurements. For both methods, we look at models with different number of clusters. An extended version of Leading eigenvector dynamics analysis (LEiDA) is used to extract the eigenvectors and eigenvalues from the raw fMRI data. GC demonstrated a better performance over traditional methods like Euclidean K-Means, particularly in high dimensional synthetic data scenarios, achieving a higher Normalized Mutual Information (NMI) scores. From GC on real fMRI data, it was found, that although the NMI scores increases with the number of cluster, there were some local spikes in NMI present for specific number of clusters, namely for models with K = 3 and K = 6. In the report we further provide a detailed description of the found centroids to explain some of the spikes in NMI score. The WGC algorithm generally resulted in lower NMI scores compared to the GC algorithm, which was disappointing given the expected advantages of WGC. This discrepancy could potentially be attributed to the highly subjectively labeled data.
